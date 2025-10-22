@@ -28,3 +28,13 @@ th, td {
   padding: 2px;
   text-align: left;
 }
+
+.search {
+  background-color: #FFF;
+  border: 1px solid #DDD;
+  border-radius: 15px;
+  color: #AAA;
+  padding: 20px;
+  margin: 10px auto 0px 10px;
+  width: 15%;
+}
