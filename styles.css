@@ -2,20 +2,20 @@
     background-color: antiquewhite;
 }
 
-/* table, {
+table, tr, th, td {
   border: 1px solid black;
-} */
+}
 
 tr {
-  background: #f4f7f8;
-  border-bottom: 1px solid #000000;
-  margin-bottom: 1px;
+  background: #066686;
+  border-bottom: 2px solid #000000;
+  margin-bottom: 2px;
 }
 
 th, td {
   font-family: 'Lato', sans-serif;
   font-size: 18px;
-  font-weight: 400;
-  padding: 20px;
+  font-weight: 100;
+  padding: 2px;
   text-align: left;
 }
