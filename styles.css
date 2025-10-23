@@ -1,9 +1,9 @@
 * {
-    background-color: antiquewhite;
+    background-color: lightslategray;
 }
 
 table, tr, th, td {
-  border: 1px solid lightslategray;
+  border: 1px solid slategray;
 }
 
 thead th {
