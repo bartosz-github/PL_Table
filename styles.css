@@ -41,3 +41,15 @@ th, td {
 li {
    list-style-type: none;
 }
+
+.W {
+  color: green;
+}
+
+.D {
+  color: darkgray;
+}
+
+.L {
+  color: red;
+}
