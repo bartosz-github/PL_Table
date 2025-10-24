@@ -1,5 +1,5 @@
 * {
-    background-color: lightslategray;
+    background-color: antiquewhite;
 }
 
 table, tr, th, td {
@@ -30,7 +30,7 @@ th, td {
 }
 
 .search {
-  background-color: antiquewhite;
+  background-color: whitesmoke;
   border: 1px solid #DDD;
   border-radius: 15px;
   color: #AAA;
@@ -44,12 +44,15 @@ li {
 
 .W {
   background-color: green;
+  color: white;
 }
 
 .D {
-  background-color: darkgray;
+  background-color: gray;
+  color: white;
 }
 
 .L {
   background-color: red;
+  color: white;
 }
