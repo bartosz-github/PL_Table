@@ -43,13 +43,13 @@ li {
 }
 
 .W {
-  color: green;
+  background-color: green;
 }
 
 .D {
-  color: darkgray;
+  background-color: darkgray;
 }
 
 .L {
-  color: red;
+  background-color: red;
 }
