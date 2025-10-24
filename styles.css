@@ -1,5 +1,9 @@
 * {
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
+}
+
+body {
+  background-color: #F5F5F5;
 }
 
 table, tr, th, td {
@@ -16,8 +20,8 @@ thead th {
 }
 
 tr {
-  background: #066686;
-  border-bottom: 2px solid #000000;
+  /* background: #066686; */
+  /* border-bottom: 2px solid #000000; */
   margin-bottom: 2px;
 }
 
@@ -43,16 +47,35 @@ li {
 }
 
 .W {
-  background-color: green;
-  color: white;
+  /* background-color: green; */
+  color:  green;
 }
 
 .D {
-  background-color: gray;
-  color: white;
+  /* background-color: gray; */
+  color: gray;
 }
 
 .L {
-  background-color: red;
-  color: white;
+  /* background-color: red; */
+  color: red;
+}
+
+tr.ChampionsLeague {
+  background-color: #E9E9E9;
+  border-bottom: 2px solid #000000;
+}
+
+tr.EuropaLeague {
+  background-color: #DDDDDD;
+  border-bottom: 2px solid #000000;
+}
+
+/* tr:nth-child(even) {
+  background-color: #D6EEEE;
+} */
+
+tr.Relegation {
+  background-color: #D0D0D0;
+  border-bottom: 2px solid #000000;
 }
