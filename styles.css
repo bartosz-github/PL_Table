@@ -81,5 +81,12 @@ tr.Relegation {
 }
 
 .Position {
-  background-color: violet;
+  /* background-color: seashell; */
+  text-align: center;
 }
+
+.Emblem {
+  /* background-color: cornflowerblue; */
+  text-align: center;
+}
+
