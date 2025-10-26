@@ -80,7 +80,7 @@ tr.Relegation {
   border-bottom: 2px solid #000000;
 }
 
-.Position {
+.Position0, .Position1, .Position2 {
   /* background-color: seashell; */
   text-align: center;
 }
