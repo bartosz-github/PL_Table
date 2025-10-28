@@ -1,3 +1,5 @@
+
+
 * {
     /* background-color: antiquewhite; */
 }
@@ -80,7 +82,7 @@ tr.Relegation {
   border-bottom: 2px solid #000000;
 }
 
-.Position0, .Position1, .Position2 {
+.PosWk8, .PosWk7, .PosWk6 {
   /* background-color: seashell; */
   text-align: center;
 }
