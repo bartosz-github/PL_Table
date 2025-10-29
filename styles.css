@@ -69,8 +69,9 @@ tr.ChampionsLeague {
 }
 
 tr.EuropaLeague {
-  background-color: #DDDDDD;
+  background-color: #FF6900 /*#DDDDDD*/;
   border-bottom: 2px solid #000000;
+  color: #333333 ;
 }
 
 /* tr:nth-child(even) {
@@ -82,7 +83,7 @@ tr.Relegation {
   border-bottom: 2px solid #000000;
 }
 
-.PosWk8, .PosWk7, .PosWk6 {
+.PosWk8, .PosWk7, .PosWk6,.Pos0 {
   /* background-color: seashell; */
   text-align: center;
 }
@@ -92,3 +93,7 @@ tr.Relegation {
   text-align: center;
 }
 
+#info::before {
+  content: "ℹ️";
+  margin-right: 5px;
+}
