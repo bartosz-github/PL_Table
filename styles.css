@@ -21,6 +21,12 @@ thead th {
   text-transform: uppercase;
 }
 
+.headser {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-size: 12px;
+}
+
 tr {
   /* background: #066686; */
   /* border-bottom: 2px solid #000000; */
