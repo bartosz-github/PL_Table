@@ -22,8 +22,8 @@ thead th {
 }
 
 .headser {
-  writing-mode: vertical-rl;
-  text-orientation: upright;
+  /* writing-mode: vertical-rl;
+  text-orientation: upright; */
   font-size: 12px;
 }
 
@@ -70,8 +70,9 @@ li {
 }
 
 tr.ChampionsLeague {
-  background-color: #E9E9E9;
+  background-color: #00004B;
   border-bottom: 2px solid #000000;
+  color: goldenrod;
 }
 
 tr.EuropaLeague {
@@ -87,6 +88,7 @@ tr.EuropaLeague {
 tr.Relegation {
   background-color: #D0D0D0;
   border-bottom: 2px solid #000000;
+  color: sienna;
 }
 
 .PosWk8, .PosWk7, .PosWk6,.PosWk5,.PosWk4,.PosWk3,.PosWk2,.PosWk1,.Pos0 {
