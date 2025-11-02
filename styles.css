@@ -96,6 +96,10 @@ tr.Relegation {
   text-align: center;
 }
 
+.Played, .Won, .Drawn, .Lost, .For, .Against, .GD, .Points {
+    text-align: center;
+}
+
 .Crest {
   /* background-color: cornflowerblue; */
   text-align: center;
