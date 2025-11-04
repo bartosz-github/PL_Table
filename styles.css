@@ -76,7 +76,7 @@ tr.ChampionsLeague {
 }
 
 tr.EuropaLeague {
-  background-color: #FF6900 /*#DDDDDD*/;
+  background-color: #FFA05C; /*  #FF6900*/ /* #DDDDDD */
   border-bottom: 2px solid #000000;
   color: #333333 ;
 }
