@@ -7,6 +7,9 @@
     font-variant-numeric: tabular-nums;
   letter-spacing: -0.045rem;
 }
+
+
+
 body {
   background-color: #F5F5F5;
 }
@@ -59,25 +62,25 @@ li {
 
 .W {
   text-align: center;
-  text-decoration: underline dashed rgb(0, 255, 0);
-  text-decoration-thickness: 0.2em;
-  text-underline-offset: 4px;
+  text-decoration: underline solid rgb(0, 255, 0);
+  text-decoration-thickness: 0.3em;
+  text-underline-offset: 3px;
 
 }
 
 
 .D {
   text-align: center;
-  text-decoration: underline dashed lightgray;  
-  text-decoration-thickness: 0.2em;
-  text-underline-offset: 4px;
+  text-decoration: underline solid lightgray;  
+  text-decoration-thickness: 0.3em;
+  text-underline-offset: 3px;
 }
 
 .L {
   text-align: center;
-  text-decoration: underline dashed red;
-  text-decoration-thickness: 0.2em;
-  text-underline-offset: 4px;
+  text-decoration: underline solid red;
+  text-decoration-thickness: 0.3em;
+  text-underline-offset: 3px;
 }
 
 tr.ChampionsLeague {
@@ -97,14 +100,14 @@ tr.EuropaLeague {
 } */
 
 tr.Relegation {
-  background-color: #D0D0D0;
+  background-color: lightslategray;
   border-bottom: 2px solid #000000;
   color: sienna;
 }
-
-/* .PosWk9, .PosWk8, .PosWk7, .PosWk6,.PosWk5,.PosWk4,.PosWk3,.PosWk2,.PosWk1,.Pos0 {
-
-} */
+/* .PosWk9, .PosWk8, .PosWk7, .PosWk6,.PosWk5,.PosWk4,.PosWk3,.PosWk2,.PosWk1, */
+.Pos0 {
+ text-align: center;
+}
 
 .Played, .Won, .Drawn, .Lost, .For, .Against, .GD, .Points {
     text-align: center;
