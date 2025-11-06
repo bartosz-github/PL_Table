@@ -62,25 +62,30 @@ li {
 
 .W {
   text-align: center;
-  text-decoration: underline solid rgb(0, 255, 0);
+  /* text-decoration: underline solid rgb(0, 255, 0);
   text-decoration-thickness: 0.3em;
-  text-underline-offset: 3px;
-
+  text-underline-offset: 3px; */
+  border-bottom: 5px solid  rgb(0, 255, 0);
+  padding-bottom: 0px
 }
 
 
 .D {
   text-align: center;
-  text-decoration: underline solid lightgray;  
+  /* text-decoration: underline solid lightgray;
   text-decoration-thickness: 0.3em;
-  text-underline-offset: 3px;
+  text-underline-offset: 3px; */
+  border-bottom: 5px solid  lightgray;
+  padding-bottom: 0px
 }
 
 .L {
   text-align: center;
-  text-decoration: underline solid red;
+  /* text-decoration: underline solid red;
   text-decoration-thickness: 0.3em;
-  text-underline-offset: 3px;
+  text-underline-offset: 3px; */
+  border-bottom: 5px solid  rgb(240, 30, 30);
+  padding-bottom: 0px
 }
 
 tr.ChampionsLeague {
@@ -91,7 +96,7 @@ tr.ChampionsLeague {
 
 tr.EuropaLeague {
   background-color: #FFA05C; /*  #FF6900*/ /* #DDDDDD */
-  border-bottom: 2px solid #000000;
+  /* border-bottom: 2px solid #000000; */
   color: #333333 ;
 }
 
@@ -101,7 +106,7 @@ tr.EuropaLeague {
 
 tr.Relegation {
   background-color: lightslategray;
-  border-bottom: 2px solid #000000;
+  /* border-bottom: 2px solid #000000; */
   color: sienna;
 }
 /* .PosWk9, .PosWk8, .PosWk7, .PosWk6,.PosWk5,.PosWk4,.PosWk3,.PosWk2,.PosWk1, */
