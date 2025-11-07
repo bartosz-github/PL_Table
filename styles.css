@@ -89,13 +89,13 @@ li {
 }
 
 tr.ChampionsLeague {
-  background-color: #5C5CFF; /*#00004B*/
+  background-color: #8787f8; /*#00004B*/
   /* border-bottom: 2px solid #000000; */
   /* color: goldenrod; */
 }
 
 tr.EuropaLeague {
-  background-color: #FFA05C; /*  #FF6900*/ /* #DDDDDD */
+  background-color: #ecb893; /*  #FF6900*/ /* #DDDDDD */
   /* border-bottom: 2px solid #000000; */
   color: #333333 ;
 }
@@ -105,9 +105,9 @@ tr.EuropaLeague {
 } */
 
 tr.Relegation {
-  background-color: lightslategray;
+  background-color: rgb(184, 196, 207);
   /* border-bottom: 2px solid #000000; */
-  color: sienna;
+  /* color: sienna; */
 }
 /* .PosWk9, .PosWk8, .PosWk7, .PosWk6,.PosWk5,.PosWk4,.PosWk3,.PosWk2,.PosWk1, */
 .Pos0 {
