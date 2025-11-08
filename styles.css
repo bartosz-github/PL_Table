@@ -19,7 +19,7 @@ table, tr, th, td {
 }
 
 thead th {
-  background: #808080;
+  background: lightgray; <!--#808080-->
   /* color: #28002B; */
   font-family: 'Lato', sans-serif;
   font-weight: 100;
