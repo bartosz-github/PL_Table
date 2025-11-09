@@ -114,6 +114,10 @@ tr.Relegation {
  text-align: center;
 }
 
+.PosWk {
+ text-align: center;
+}
+
 .Played, .Won, .Drawn, .Lost, .For, .Against, .GD, .Points {
     text-align: center;
 }
