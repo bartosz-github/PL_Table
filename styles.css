@@ -114,9 +114,9 @@ tr.Relegation {
  text-align: center;
 }
 
-.PosWk {
+/* .PosWk {
  text-align: center;
-}
+} */
 
 .Played, .Won, .Drawn, .Lost, .For, .Against, .GD, .Points {
     text-align: center;
@@ -127,7 +127,46 @@ tr.Relegation {
   text-align: center;
 }
 
+
 #info::before {
   content: "ℹ️";
   margin-right: 5px;
 }
+
+/* ######################################################################## */
+
+/* lets collapse something */
+/* #MW11 {
+  display: none;
+} */
+/*  */
+    /* Hide the checkbox */
+    input[type="checkbox"] {
+      /* display: none; */
+    }
+ 
+    /* Style the label as a button */
+    label {
+      display: block;
+      cursor: pointer;
+      background-color: whitesmoke;
+      border: 1px solid #DDD;
+      border-radius: 15px;
+      color: #AAA;
+      padding: 20px;
+      margin: 10px auto 0px 10px;
+      width: 10%;
+    }
+ 
+    /* Hide the collapsible content by default */
+    .PosWk {
+      display: none;
+    }
+ 
+    /* Show the collapsible content when the checkbox is checked */
+    input[type="checkbox"]:checked~.PosWk {
+      display:contents;
+      /*table-column;*/ /*block;*/ /*table-column-group;*/ /*table-row-group;*/
+    }
+
+    /* ######################################################################## */

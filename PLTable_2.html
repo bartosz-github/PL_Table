@@ -11,6 +11,8 @@
 <!-- https://www.premierleague.com/en/tables -->
 <!-- https://www.uefa.com/uefachampionsleague/ -->
 <!-- https://www.uefa.com/uefaeuropaleague/news/029c-1e982c79daa1-597a684fc805-1000--2025-26-europa-league-meet-the-league-phase-teams/ -->
+<!-- collapse columns https://www.w3.org/Style/Examples/007/folding.en.html -->
+<!-- collapse columns https://www.tutorialpedia.org/blog/collapsable-table-html-css/ -->
 <body>
 
   <ul class="navigation">
@@ -25,6 +27,15 @@
 <!-- https://www.bbc.co.uk/sport/football/articles/clyk3gq91glo -->
 <!-- Who do fans think is the key player in each Premier League team?-->
 
+<!-- Add legend and symbols for promoted teams, last year winner, 2nd, 3rd, 4th and 5th -->
+<!-- and consecutive seasons in the PL for current teams  -->
+
+<!-- cols_colpser -->
+  <input type="checkbox" id="toggle">
+  <label for="toggle">Toggle Content</label>
+  <div class="PosWk">
+
+<!-- https://wpdatatables.com/table-with-collapsible-rows/ -->
   <table id="PL2526">
     <!-- <colgroup> -->
         <!-- <col /> -->
@@ -33,9 +44,9 @@
     <!-- </colgroup> -->
     <thead id="PL2526head">
       <tr>
-        <th colspan="24">Season 2025-2026</th>
+        <!-- <th colspan="24">Season 2025-2026</th>
       </tr>
-      <tr>
+      <tr> -->
         <!-- issue -->
          <!-- https://stackoverflow.com/questions/11918491/using-two-css-classes-on-one-element -->
         <th class="headser" scope="col" class="Pos0">Plc</th>
@@ -52,17 +63,19 @@
         <th class="headser" scope="col">GD</th>
         <th class="headser" scope="col">Pts</th>
         <!-- <th class="headser" scope="col">Trend</th> -->
-        <th class="headser" scope="col" class="PosWk">MW1</th>
-        <th class="headser" scope="col" class="PosWk">MW2</th>
-        <th class="headser" scope="col" class="PosWk">MW3</th>
-        <th class="headser" scope="col" class="PosWk">MW4</th>
-        <th class="headser" scope="col" class="PosWk">MW5</th>
-        <th class="headser" scope="col" class="PosWk">MW6</th>
-        <th class="headser" scope="col" class="PosWk">MW7</th>
-        <th class="headser" scope="col" class="PosWk">MW8</th>
-        <th class="headser" scope="col" class="PosWk">MW9</th>
-        <th class="PosWk" class="headser" scope="col">MW10</th>
-        <th class="PosWk" class="headser" scope="col">MW11</th>
+
+          <th class="headser" scope="col">MW1</th>
+          <th class="headser" scope="col">MW2</th>
+          <th class="headser" scope="col">MW3</th>
+          <th class="headser" scope="col">MW4</th>
+          <th class="headser" scope="col">MW5</th>
+          <th class="headser" scope="col">MW6</th>
+          <th class="headser" scope="col">MW7</th>
+          <th class="headser" scope="col">MW8</th>
+          <th class="headser" scope="col">MW9</th>
+          <th class="headser" scope="col">MW10</th>
+          <th class="headser" scope="col">MW11</th>
+
       </tr>
     </thead>
     <tbody id="PL2526body">
@@ -91,8 +104,8 @@
         <td class="W">1</td>  <!-- MW8 -->
         <td class="W">1</td>  <!-- MW9 -->
         <td class="W">1</td>  <!-- MW10-->
-        <td class="D">1</td>  <!-- MW11-->
-      </tr>
+        <th class="D">1</td>  <!-- MW11-->
+      </tr>  
 <!--02-->
       <tr class="ChampionsLeague">
         <td class="Pos0 W">2</td>
@@ -118,7 +131,7 @@
         <td class="L">2</td>  <!-- MW8 -->
         <td class="W">5</td>  <!-- MW9 -->
         <td class="W">2</td>  <!-- MW10-->
-        <td class="W">2</td>  <!-- MW11-->
+        <th class="W">2</td>  <!-- MW11-->
       </tr>
 <!--03-->
       <tr class="ChampionsLeague">
@@ -145,7 +158,7 @@
         <td class="W">5</td>  <!-- MW8 -->
         <td class="L">9</td>  <!-- MW9 -->
         <td class="W">7</td>  <!-- MW10-->
-        <td class="W">3</td>  <!-- MW11-->
+        <th class="W">3</td>  <!-- MW11-->
       </tr>
 <!--04-->
       <tr class="ChampionsLeague">
@@ -172,7 +185,7 @@
         <td class="W">7</td>  <!-- MW8 -->
         <td class="D">4</td>  <!-- MW9 -->
         <td class="D">4</td>  <!-- MW10-->
-        <td class="D">4</td>  <!-- MW11-->
+        <th class="D">4</td>  <!-- MW11-->
       </tr>
 <!-- 05 -->
       <tr class="EuropaLeague">
@@ -199,7 +212,7 @@
         <td class="W">6</td>  <!-- MW8 -->
         <td class="L">3</td>  <!-- MW9 -->
         <td class="L">6</td>  <!-- MW10-->
-        <td class="D">5</td>  <!-- MW11-->
+        <th class="D">5</td>  <!-- MW11-->
       </tr>
 <!--06-->
       <tr>
@@ -226,7 +239,7 @@
         <td class="W">11</td>  <!-- MW8 -->
         <td class="W">8</td>  <!-- MW9 -->
         <td class="L">11</td>  <!-- MW10-->
-        <td class="W">6</td>  <!-- MW11-->
+        <th class="W">6</td>  <!-- MW11-->
       </tr>
 <!--07-->
       <tr>
@@ -253,7 +266,7 @@
         <td class="W">9</td>  <!-- MW8 -->
         <td class="W">6</td>  <!-- MW9 -->
         <td class="D">8</td>  <!-- MW10-->
-        <td class="D">7</td>  <!-- MW11-->
+        <th class="D">7</td>  <!-- MW11-->
       </tr>
 <!--08-->
       <tr>
@@ -280,10 +293,12 @@
         <td class="L">4</td>  <!-- MW8 -->
         <td class="W">7</td>  <!-- MW9 -->
         <td class="W">3</td>  <!-- MW10-->
-        <td class="L">8</td>  <!-- MW11-->
+        <th class="L">8</td>  <!-- MW11-->
       </tr>
 <!--09-->
       <tr>
+        <!--https://www.bbc.co.uk/sport/football/teams/afc-bournemouth/scores-fixtures-->
+        <!--https://www.premierleague.com/en/clubs/91/bournemouth/overview-->
         <td class="Pos0 L">9</td>
         <td class="Crest"><img src="img/AFC_Bournemouth.svg" height="20px;"></td>
         <td>Bournemouth</td>
@@ -297,16 +312,17 @@
         <td class="Against">18</td>
         <td class="GD">-1</td>
         <td class="Points">18</td>
-        <td class="W">16</td>  <!-- MW1 -->
-        <td class="W">9</td>  <!-- MW2 -->
-        <td class="W">7</td>  <!-- MW3 -->
-        <td class="D">4</td>  <!-- MW4 -->
-        <td class="D">4</td>  <!-- MW5 -->
-        <td class="W">6</td>  <!-- MW6 -->
-        <td class="D">4</td>  <!-- MW7 -->
-        <td class="W">3</td>  <!-- MW8 -->
-        <td class="L">2</td>  <!-- MW9 -->
-        <td class="L">5</td>  <!-- MW10-->
+        <td class="L">16</td> <!-- MW1 --> <!--15/08/2025 2:4 Liverpool-->
+        <td class="W">9</td>  <!-- MW2 --> <!--23/08/2025 1:0 W.Wanderers-->
+        <td class="W">7</td>  <!-- MW3 --> <!--30/08/2025 1:0 T.Hotspur-->
+        <td class="W">4</td>  <!-- MW4 --> <!--13/09/2025 2:1 B.H.Albion-->
+        <td class="D">4</td>  <!-- MW5 --> <!--21/09/2025 0:0 N.United-->
+        <td class="D">6</td>  <!-- MW6 --> <!--27/09/2025 2:2 L.United-->
+        <td class="W">4</td>  <!-- MW7 --> <!--03/10/2025 3:1 Fulham-->
+        <td class="D">3</td>  <!-- MW8 --> <!--18/10/2025 3:3 C.Palace-->
+        <td class="W">2</td>  <!-- MW9 --> <!--26/10/2025 2:0 N.Forest-->
+        <th class="L">5</td>  <!-- MW10--> <!--02/11/2025 1:3 M.City-->
+        <th class="L">5</td>  <!-- MW11--> <!--09/11/2025 0:4 A.Villa-->
       </tr>
 <!--10-->
       <tr>
@@ -333,7 +349,7 @@
         <td class="D">8</td>  <!-- MW8 -->
         <td class="L">10</td>  <!-- MW9 -->
         <td class="W">9</td>  <!-- MW10-->
-        <td class="D">10</td>  <!-- MW11-->
+        <th class="D">10</td>  <!-- MW11-->
       </tr>
 <!--11-->
       <tr>
@@ -360,7 +376,7 @@
         <td class="W">10</td>  <!-- MW8 -->
         <td class="L">13</td>  <!-- MW9 -->
         <td class="W">10</td>  <!-- MW10-->
-        <td class="D">11</td>  <!-- MW11-->
+        <th class="D">11</td>  <!-- MW11-->
       </tr>
 <!--12-->
       <tr>
@@ -387,7 +403,7 @@
         <td class="W">13</td>  <!-- MW8 -->
         <td class="W">11</td>  <!-- MW9 -->
         <td class="L">12</td>  <!-- MW10-->
-        <td class="W">12</td>  <!-- MW11-->
+        <th class="W">12</td>  <!-- MW11-->
       </tr>
 <!--13-->
       <tr>
@@ -414,7 +430,7 @@
         <td class="L">12</td>  <!-- MW8 -->
         <td class="L">14</td>  <!-- MW9 -->
         <td class="D">15</td>  <!-- MW10-->
-        <td class="W">13</td>  <!-- MW11-->
+        <th class="W">13</td>  <!-- MW11-->
       </tr>
 <!--14-->
       <tr>
@@ -441,7 +457,7 @@
         <td class="L">14</td>  <!-- MW8 -->
         <td class="W">12</td>  <!-- MW9 -->
         <td class="L">13</td>  <!-- MW10-->
-        <td class="L">14</td>  <!-- MW11-->
+        <th class="L">14</td>  <!-- MW11-->
       </tr>
 <!--15-->
       <tr>
@@ -468,7 +484,7 @@
         <td class="L">15</td>  <!-- MW8 -->
         <td class="L">17</td>  <!-- MW9 -->
         <td class="W">14</td>  <!-- MW10-->
-        <td class="L">15</td>  <!-- MW11-->
+        <th class="L">15</td>  <!-- MW11-->
       </tr>
 <!--16-->
       <tr>
@@ -495,7 +511,7 @@
         <td class="L">16</td>  <!-- MW8 -->
         <td class="W">15</td>  <!-- MW9 -->
         <td class="L">16</td>  <!-- MW10-->
-        <td class="L">16</td>  <!-- MW11-->
+        <th class="L">16</td>  <!-- MW11-->
       </tr>
 <!--17-->
       <tr>
@@ -522,7 +538,7 @@
         <td class="W">17</td>  <!-- MW8 -->
         <td class="W">16</td>  <!-- MW9 -->
         <td class="L">17</td>  <!-- MW10-->
-        <td class="L">17</td>  <!-- MW11-->
+        <th class="L">17</td>  <!-- MW11-->
       </tr>
 <!--18-->
       <tr class="Relegation">
@@ -549,7 +565,7 @@
         <td class="L">19</td>  <!-- MW8 -->
         <td class="L">19</td>  <!-- MW9 -->
         <td class="W">18</td>  <!-- MW10-->
-        <td class="W">18</td>  <!-- MW11-->
+        <th class="W">18</td>  <!-- MW11-->
       </tr>
 <!--19-->
       <tr class="Relegation">
@@ -576,7 +592,7 @@
         <td class="L">18</td>  <!-- MW8 -->
         <td class="L">18</td>  <!-- MW9 -->
         <td class="D">19</td>  <!-- MW10-->
-        <td class="L">19</td>  <!-- MW11-->
+        <th class="L">19</td>  <!-- MW11-->
       </tr>
 <!--20-->
       <tr class="Relegation">
@@ -603,15 +619,16 @@
         <td class="L">20</td>  <!-- MW8 -->
         <td class="L">20</td>  <!-- MW9 -->
         <td class="L">20</td>  <!-- MW10-->
-        <td class="L">20</td>  <!-- MW11-->
+        <th class="L">20</td>  <!-- MW11-->
       </tr>
       </tbody>
       <tfoot id="PL2526foot">
-        <td colspan="22">
+        <td colspan="13">
           <div id="info">Table updated: 14/11/2025</div>
         </td>
       </tfoot>
   </table>
+  </div>
 <a href="PLTablePoints.html">Table by points</a>
 </body>
 <footer> </footer>
