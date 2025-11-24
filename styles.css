@@ -152,10 +152,13 @@ tr.Relegation {
   padding: 5px 0;
   position: absolute;
   z-index: 1;
+  opacity: 0;
+  transition: opacity 1.5s;
 }
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
+  opacity: 1;
 }
 /* ######################################################################## */
 
