@@ -197,3 +197,10 @@ tr.Relegation {
     }
 
     /* ######################################################################## */
+
+#Noupdate {
+  background-color: #94f887;
+  color: aqua;
+  width: 200px;
+  height: 100px;
+}
