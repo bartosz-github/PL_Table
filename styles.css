@@ -83,6 +83,13 @@ li {
   padding-bottom: 0px
 }
 
+.X {
+  text-align: center;
+  /* border-bottom: 5px solid  #ecb893; */
+  padding-bottom: 0px;
+  color: #ecb893;  
+}
+
 tr.ChampionsLeague {
   background-color: #8787f8; /*#00004B*/
   /* border-bottom: 2px solid #000000; */
@@ -122,11 +129,12 @@ tr.Relegation {
   text-align: center;
 }
 
-
+W
 #info::before {
   content: "ℹ️";
   margin-right: 5px;
 }
+
 
 /* ######################################################################## */
 .tooltip {
