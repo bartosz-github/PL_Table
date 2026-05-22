@@ -14,7 +14,7 @@ table, tr, th, td {
 }
 
 thead th {
-  background: lightgray; <!--#808080-->
+  background: lightgray; /*#808080*/
   /* color: #28002B; */
   font-family: 'Lato', sans-serif;
   font-weight: 100;
@@ -102,12 +102,17 @@ tr.EuropaLeague {
   color: #333333 ;
 }
 
+tr.ConferenceLeague {
+  background-color: #1fee0c; /*  #FF6900*/ /* #DDDDDD */
+  /* border-bottom: 2px solid #000000; */
+  color: #333333 ;
+}
 /* tr:nth-child(even) {
   background-color: #D6EEEE;
 } */
 
 tr.Relegation {
-  background-color: rgb(184, 196, 207);
+  background-color: rgb(205, 207, 184); /*rgb(184, 196, 207);*/
   /* border-bottom: 2px solid #000000; */
   /* color: sienna; */
 }
